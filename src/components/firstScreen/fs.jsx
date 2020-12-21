@@ -13,6 +13,6 @@ function FirstScreen() {
       </li>
     </ul>
   );
-}
+};
 
 export default FirstScreen;

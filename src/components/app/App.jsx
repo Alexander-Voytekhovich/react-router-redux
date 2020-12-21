@@ -9,7 +9,7 @@ import ThirdScreen from '../thirdScreen';
 function App() {
   return (
     <Router>
-      <Route path='/>' component={ FirstScreen } />
+      <Route path='/' component={ FirstScreen } exact />
       <Route path='/ss' component={ SecondScreen } />
       <Route path='/ts' component={ ThirdScreen } />
     </Router>
