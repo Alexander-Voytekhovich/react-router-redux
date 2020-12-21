@@ -1,18 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './components/app';
-import FirstScreen from './components/firstScreen';
-import SecondScreen from './components/secondScreen';
 
+import App from './components/app';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div>
-      {/* <App />
-      <FirstScreen />
-      <SecondScreen /> */}
-    </div>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
